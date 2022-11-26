@@ -1,25 +1,3 @@
-/*!
- * \file 
- * \brief TempHum11 Click example
- * 
- * # Description
- * This click has two sensors which can be set to sample measurements with the resolution 
- * of 8, 11 or 14 bits, based on the measurement time. Calibration coefficients that are applied 
- * to the measured value and the results are stored in the MSB/LSB format, on the output registers. 
- * These values are then used in formulas so that the final temperature or relative humidity data can be calculated.
- *
- * The demo application is composed of two sections :
- * 
- * ## Application Init 
- * Initializes driver init, test comunication and configuration chip for measurement.
- * 
- * ## Application Task  
- * Reads Temperature and Humidity data. This data logs to USBUART every 1500ms.
- * 
- * 
- * \author MikroE Team
- *
- */
 // ------------------------------------------------------------------- INCLUDES
 
 #include "board.h"
