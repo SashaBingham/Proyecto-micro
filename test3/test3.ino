@@ -13,7 +13,7 @@ void setup() {
 
 #ifdef _DEBUG_
   Serial.println(" ");
-  Serial.println("Inicado sensor HDC1080");
+  Serial.println("Iniciado sensor HDC1080");
   Serial.println("Calefactor encendido. Por favor espere...");
 #endif
 
